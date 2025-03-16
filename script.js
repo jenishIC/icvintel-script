@@ -9,7 +9,7 @@ class EventTrackerClass {
         if (!tenantId) {
             throw new Error('data-tenant-id attribute is required in script tag');
         }
-        this.apiUrl = 'http://18.119.115.95/api/';
+        this.apiUrl = 'http://18.119.115.95/api';
         this.tenantId = tenantId;
         this.sessionId = null;
         this.identity = null;
